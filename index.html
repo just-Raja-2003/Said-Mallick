@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Said Mallick | Student Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">SM</span>
+                <span class="logo-subtext">Dev</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particles" id="particles"></div>
+            <div class="code-rain" id="codeRain"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-image-container">
+                <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/d004624c-6919-414a-b6d9-85348a31ef1c.png" alt="Anime Developer" class="hero-image">
+            </div>
+            <h1 class="hero-title">
+                <span class="glitch" data-text="Said Mallick">Said Mallick</span>
+            </h1>
+            <div class="hero-subtitle">
+                <span id="typedText"></span>
+                <span class="cursor">|</span>
+            </div>
+            <p class="hero-description">Virtual Machines • Android Customization • OS Engineering • Web Development</p>
+            <a href="#projects" class="cta-button">
+                <span>Explore My Work</span>
+                <span class="button-glow"></span>
+            </a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-text">About Me</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/d9c0e28b-7e86-4810-80c2-bc70e56050d9.png" alt="Said Mallick">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Hello! I'm Said Mallick</h3>
+                    <p>Passionate student developer specializing in virtual machines, Android customization, and cross-platform development. I blend technology with creative problem-solving to build innovative solutions.</p>
+                    <p>With expertise in virtualization technologies, OS optimization, and web development, I bring a unique perspective to every project. I'm constantly exploring new technologies and pushing the boundaries of what's possible.</p>
+                    <div class="stats-container">
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="15">0</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="20">0</div>
+                            <div class="stat-label">Skills</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="3">0</div>
+                            <div class="stat-label">Years Learning</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-text">Technical Skills</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="skills-grid">
+                <!-- Virtual Machines & Virtualization -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <h3>Virtual Machines &amp; Virtualization</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">VMware</span>
+                                <div class="skill-stars" data-stars="5">
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">VirtualBox</span>
+                                <div class="skill-stars" data-stars="5">
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Hypervisor Management</span>
+                                <div class="skill-stars" data-stars="4">
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Android Customization -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <h3>Android Customization</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Android ROM</span>
+                                <div class="skill-stars" data-stars="4">
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">System Configuration</span>
+                                <div class="skill-stars" data-stars="5">
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">App Development</span>
+                                <div class="skill-stars" data-stars="4">
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Operating Systems -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <h3>Operating Systems</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Windows</span>
+                                <div class="skill-stars" data-stars="5">
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Ubuntu/Linux</span>
+                                <div class="skill-stars" data-stars="5">
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML/CSS</span>
+                                <div class="skill-stars" data-stars="5">
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-stars" data-stars="4">
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Programming & Tools -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <h3>Programming &amp; Tools</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-stars" data-stars="4">
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git/GitHub</span>
+                                <div class="skill-stars" data-stars="5">
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-text">Featured Projects</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="vm">Virtual Machines</button>
+                <button class="filter-btn" data-filter="android">Android</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="os">OS</button>
+            </div>
+            <div class="projects-grid" id="projectsGrid">
+                <div class="project-card" data-category="vm">
+                    <div class="project-image">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/fc382f52-eab3-4e4f-8c12-c0910d3f465b.png" alt="VM Framework">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Virtual Machine Optimization Framework</h3>
+                        <p>Advanced framework for optimizing VM performance and resource allocation across multiple hypervisors</p>
+                        <div class="project-tags">
+                            <span class="tag">VMware</span>
+                            <span class="tag">VirtualBox</span>
+                            <span class="tag">Linux</span>
+                            <span class="tag">Scripting</span>
+                        </div>
+                        <a href="https://github.com" target="_blank" class="project-link">
+                            <span>View Project</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="android">
+                    <div class="project-image">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/0cb0de9c-99cb-428b-9755-8238b3f8800a.png" alt="Android Toolkit">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Android Customization Toolkit</h3>
+                        <p>Comprehensive toolkit for Android system customization and ROM development</p>
+                        <div class="project-tags">
+                            <span class="tag">Android</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">System Config</span>
+                        </div>
+                        <a href="https://github.com" target="_blank" class="project-link">
+                            <span>View Project</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="vm">
+                    <div class="project-image">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/fc382f52-eab3-4e4f-8c12-c0910d3f465b.png" alt="VM Framework">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Virtual Machine Optimization Framework</h3>
+                        <p>Advanced framework for optimizing VM performance and resource allocation across multiple hypervisors</p>
+                        <div class="project-tags">
+                            <span class="tag">VMware</span>
+                            <span class="tag">VirtualBox</span>
+                            <span class="tag">Linux</span>
+                            <span class="tag">Scripting</span>
+                        </div>
+                        <a href="https://github.com" target="_blank" class="project-link">
+                            <span>View Project</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>2
+
+                 <div class="projects-grid" id="projectsGrid">
+                <div class="project-card" data-category="vm">
+                    <div class="project-image">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/fc382f52-eab3-4e4f-8c12-c0910d3f465b.png" alt="VM Framework">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Gambling website tracking guide</h3>
+                        <p>Advanced framework for optimizing VM performance and resource allocation across multiple hypervisors</p>
+                        <div class="project-tags">
+                            <span class="tag">VMware</span>
+                            <span class="tag">VirtualBox</span>
+                            <span class="tag">Linux</span>
+                            <span class="tag">Scripting</span>
+                        </div>
+                        <a href="C:\Users\Said Mallick\Documents\MY WEB\Track project\index.html" target="_blank" class="project-link">
+                            <span>View Project</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="os web">
+                    <div class="project-image">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/5c489f1d-3914-48da-a935-ef85362cce26.png" alt="OS Dashboard">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>OS Configuration Dashboard</h3>
+                        <p>Interactive dashboard for managing and monitoring OS configurations across systems</p>
+                        <div class="project-tags">
+                            <span class="tag">Web Dev</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Linux</span>
+                        </div>
+                        <a href="https://github.com" target="_blank" class="project-link">
+                            <span>View Project</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="vm">
+                    <div class="project-image">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/c4a0c197-365b-4411-8f6b-9ed3e154bcc5.png" alt="Virtual Lab">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Virtual Lab Environment</h3>
+                        <p>Educational virtual lab setup for teaching computer science concepts</p>
+                        <div class="project-tags">
+                            <span class="tag">VirtualBox</span>
+                            <span class="tag">Networking</span>
+                            <span class="tag">Linux</span>
+                        </div>
+                        <a href="https://github.com" target="_blank" class="project-link">
+                            <span>View Project</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/87b6082b-d41e-4945-9257-3af920dea677.png" alt="Web Explorer">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Web Tech Stack Explorer</h3>
+                        <p>Interactive web application showcasing modern web development technologies</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">React</span>
+                        </div>
+                        <a href="https://codepen.io" target="_blank" class="project-link">
+                            <span>View Project</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="os">
+                    <div class="project-image">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/59befc49-7e9a-48dc-b04d-94727acbeb53.png" alt="Sysadmin Tools">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>System Administration Tools</h3>
+                        <p>Suite of tools for efficient system administration and automation</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Bash</span>
+                            <span class="tag">Linux</span>
+                        </div>
+                        <a href="https://github.com" target="_blank" class="project-link">
+                            <span>View Project</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-text">Education &amp; Timeline</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="timeline" id="timelineContainer">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2026</div>
+                        <h3>B.Tech in Computer Science</h3>
+                        <p class="timeline-institution">University</p>
+                        <p class="timeline-description">Currently pursuing degree with focus on systems and virtualization</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2025</div>
+                        <h3>Advanced Virtualization Course</h3>
+                        <p class="timeline-institution">Online Platform</p>
+                        <p class="timeline-description">Completed certification in enterprise virtualization technologies</p>
+                    </div>
+                </div>
+                 <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2025</div>
+                        <h3>Hack Track Cyber Security</h3>
+                        <p class="timeline-institution">Online Platform</p>
+                        <p class="timeline-description">Completed certification in Cyber Security technologies</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2024</div>
+                        <h3>Full-Stack Web Development</h3>
+                        <p class="timeline-institution">Online Learning</p>
+                        <p class="timeline-description">Comprehensive course covering frontend and backend development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-text">Get In Touch</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" class="social-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+                            </svg>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                            <span>Twitter</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">
+                        <span>Send Message</span>
+                        <span class="button-glow"></span>
+                    </button>
+                </form>
+            </div>
+            <div class="form-success" id="formSuccess">
+                <div class="success-icon">✓</div>
+                <h3>Message Sent!</h3>
+                <p>Thanks for reaching out. I'll get back to you soon!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Said Mallick. Crafted with passion and anime vibes.</p>
+                <button class="scroll-top" id="scrollTop">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 19V5M5 12l7-7 7 7"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="ind.js"></script>
+</body>
+</html>
